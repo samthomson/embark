@@ -55,3 +55,8 @@ input.form-control {
 .alert-result {
   margin-left: 0;
 }
+
+.image-no-overflow {
+  max-width: 100%;
+  height: auto;
+}

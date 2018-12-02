@@ -215,7 +215,7 @@ class Storage extends React.Component {
           <Button bsStyle="primary" onClick={(e) => this.loadFile(e)}>Download</Button>
           <HelpBlock>file available at: <span><a href={this.state.url}
                                                  target="_blank">{this.state.url}</a></span></HelpBlock>
-          <HelpBlock><img src={this.state.url}/></HelpBlock>
+          <HelpBlock><img src={this.state.url} className="image-no-overflow"/></HelpBlock>
         </FormGroup>
       </Form>
 
